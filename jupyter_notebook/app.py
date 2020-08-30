@@ -63,7 +63,7 @@ def precipitation():
     return jsonify(precipitation_list)
 
 @app.route("/api/v1.0/stations")
-def station():
+def stations():
     #create link
     session = Session(engine)
 
