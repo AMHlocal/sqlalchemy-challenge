@@ -1,5 +1,16 @@
 # SQLAlchemy Homework - Surfs Up!
 
+### User Note
+ When you going to do the API request for the Start or Start-End you must enter the date in a year-month-day format (YYYY-MM-DD).
+
+ For example if you wanted the temp low, avg, and high on March 4th 2017 you would enter the URL as follows: http://127.0.0.1:5000/api/v1.0/2017-03-04.
+
+ If you want to find the average low, avg, and high between two dates for example March 4th, 2017 to March 14th, 2017 you will need to enter the URL as follows: http://127.0.0.1:5000/api/v1.0/2017-03-04/2017-03-14
+
+
+
+
+
 ### Before You Begin
 
 1. Create a new repository for this project called `sqlalchemy-challenge`. **Do not add this homework to an existing repository**.
